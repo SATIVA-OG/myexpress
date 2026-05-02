@@ -40,6 +40,10 @@ async function handleEvent(event) {
   });
 }
 
+app.get('/', (req, res) => {
+  res.send('LINE Bot Server is running!');
+});
+
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
