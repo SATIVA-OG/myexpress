@@ -50,7 +50,7 @@ app.post('/webhook', middleware(config), (req, res) => {
 
 
 app.get('/', (req, res) => {
-  res.send('LINE Bot Server is running!');
+  res.send('LINE Bot Server is running! Chotikun Wellcome to my word');
 });
 
 const PORT = process.env.PORT || 3023;
